@@ -75,9 +75,9 @@ int  findLastOccurence(int arr[], int n, int target, int &ansIndex)
 
 int main() {
 
-    int arr[] = {5, 10, 20 ,20, 20, 30, 40, 50, 60, 70};
+    int arr[] = {1,1,2,2,2,2,3};
     int n = sizeof(arr) / sizeof(arr[1]);
-    int target = 20;
+    int target = 4;
 
     int ansIndex = -1; // -1 means Answer Not Found; 
    int a =  findFirstOccurence(arr, n, target, ansIndex);

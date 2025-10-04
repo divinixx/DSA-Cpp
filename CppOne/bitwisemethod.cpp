@@ -10,7 +10,7 @@ int DtoB(int n)
     while (n > 0)
     {
         int bit = n & 1;
-        binaryno = bit * pow(10, i++) + binaryno;
+        binaryno += bit * pow(10, i++);
         n = n >> 1;
     }
     return binaryno;

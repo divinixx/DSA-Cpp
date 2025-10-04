@@ -10,6 +10,7 @@ int main()
     cin >> l;
     cout << "Enter the Breadth: " << endl;
     cin >> b;
+    
     for (int r = 0; r < l; r++)
     {
         for (int c = 0; c < b; c++)

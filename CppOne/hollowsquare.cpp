@@ -3,6 +3,8 @@ using namespace std;
 
 int main()
 {
+// i--> rows
+// j--> columns
 
     int side;
     cout << "Enter the Side of Square: " << endl;
